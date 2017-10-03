@@ -45,5 +45,9 @@ public class Cat {
 		// Meow text appears below cat head, +10 places below 
 		// so it doesn't overlap the drawing
 		g2.drawString("Woof", 20, 20);	
+		
+		g2.setColor(Color.blue);
+		g2.fillOval(180, 200, 25, 25);
+		
 	}
 }
